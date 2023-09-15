@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: whitesmoke;
+}
+
+#navigation{
+background:linear-gradient(rgb(53, 52, 52),black);
+color: rgb(14, 14, 14);
+padding: 15px;
+display: block;
+text-align: center;
+height: 55px;
+}
+#nav-logo{
+height: 60px;
+width: 60px;
+border-radius: 10%;
+}
+
+#city {
+    height: 550px;
+    background: no-repeat url(/New-folder/hyderabad.jpg);
+    background-size: cover;
+}
+
+#vst {
+    color: aliceblue;
+    text-shadow: 0px 0px 7px black;
+    padding: 20px;
+}
+
+.vst{
+    background-color: rgba(0, 204, 255, 0.582);
+    width: 200px;
+    margin: 0px auto 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+.hyd {
+    background-color:  rgba(0, 204, 255, 0.582);
+    width: 200px;
+    margin: 10px auto 0px;
+    text-align: center;
+    border-radius: 5px;
+}
+.discription{
+    font-size: 20px;
+    width: 400px;
+}
+.pics{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#activities{
+    margin: 0px;
+    padding: 5px;
+    display: block;
+    background: linear-gradient(rgb(53, 52, 52),black);
+    color: white;
+    height: 680px;
+}
+.vst-in-hyd{
+    text-align: center;
+    font-size: 20px;
+    background-color:  rgba(0, 204, 255, 0.582);
+    font-size: 25px;
+    width: 250px;
+    margin: 20px auto 15px;
+    padding: 5px;
+    border-radius: 5px;
+}
+#first-three{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px auto 30px;
+    padding: 5px;
+    text-align: center;
+}
+#second-three{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px auto 30px;
+    padding: 5px;
+    text-align: center;
+}
+
+.places{
+    width: 300px;
+    height: 250px;
+}
+
+#contact{
+    margin: 20px auto;
+}
+.card-background {
+    background-color: black;
+    width: 600px;
+    border: 6px double goldenrod;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.card-inside{
+    background-color: rgb(228, 180, 59);
+    color: rgb(26, 5, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.prf-pic {
+    border: 3px solid black;
+    border-radius: 5%;
+    width: 250px;
+    height: 200px;
+}
+.content{
+    margin-top: 10px;
+    text-align: center;
+}
+.text{
+    color: black;
+}
