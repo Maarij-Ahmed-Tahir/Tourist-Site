@@ -20,7 +20,7 @@ border-radius: 10%;
 
 #city {
     height: 550px;
-    background: no-repeat url(/New-folder/hyderabad.jpg);
+    background: no-repeat url(hyderabad.jpg);
     background-size: cover;
 }
 
